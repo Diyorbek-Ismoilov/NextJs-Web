@@ -4,6 +4,13 @@
 
 .wrapper{
     display: flex;
+    flex-direction: column;
+    height: 100vh;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+}
+
+.wrapper h1{
+    margin-bottom: 100px;
 }

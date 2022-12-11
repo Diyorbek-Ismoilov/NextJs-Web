@@ -5,7 +5,6 @@
 }
 
 body{
-    background-color: #1d1d1f;
-    color: #f5f5f7;
+    background: linear-gradient(1deg, #526d94,#ffffff);
     font-family: verdana;
 }
