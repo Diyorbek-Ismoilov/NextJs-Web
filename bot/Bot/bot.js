@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf');
 
 const TOKEN = '5896354843:AAHwjJ6VAgNOKOZ_Cxpmvyiof8YRz_7sYig'
-const web_link = '' 
+const web_link = 'https://next-js-web-sandy.vercel.app/' 
 
 const bot = new Telegraf(TOKEN);
 bot.start((ctx) => ctx.reply('Welcome Fucking Slaaaave', 

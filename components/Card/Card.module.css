@@ -1,47 +1,43 @@
 .container{
     display: flex;
     flex-direction: column;
-    width: 150px;
-    height: 200px;
+    width: 350px;
+    height: fit-content;
     margin: 20px 10px;
 }
 
-.animation{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-    background: #2c4636;
-    border-radius: 10px 10px 10px 10px;
-}
 
-.description{
-    height: 60px;
-    padding: 12px;
-    text-align: center;
-    font-size: 17px;
-}
-.btn{
-    width: 100%;
+
+.paytype{
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 20px;
-    padding: 15px;
-    background: #b9b760;
-    border-radius: 10px 10px 10px 10px;
-    border: none;
-    color: black;
-    transition: 0.07s;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
+    width: 350px;
+    height: 130px;
+    border: 3px solid white;
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 15px;
 }
 
-.btn:hover{
-    background: #c3be62;
+.paytype img{
+    width: 50px;
 }
-.btn:active{
-    background: beige;
+
+.paytype p{
+ font-size: 20px;
+ margin-left: 45px;
+ margin-bottom: 10px;
+}
+
+.photo{
+    width: 50px;
+    margin: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo span{
+ font-size: 12px;
+ margin-top: 10px;
 }
